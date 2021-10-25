@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuessingGame">
         <activity
+            android:name=".legendLvl"
+            android:exported="true" />
+        <activity
+            android:name=".botLvl"
+            android:exported="true" />
+        <activity
+            android:name=".noobLvl"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
